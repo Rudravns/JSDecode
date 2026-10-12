@@ -18,7 +18,7 @@ From the project root, build the package with:
 mvn package
 ```
 
-The JAR is created at `target/jsdecode-1.0.0.jar`.
+The JAR is created at `target/JDecode-1.0.0.jar`.
 
 ## Build with Gradle
 
@@ -38,7 +38,7 @@ The JAR is created at `build/libs/JDecode-1.0.0.jar`. Its manifest allows
 running the example program with either build:
 
 ```powershell
-java -jar target/jsdecode-1.0.0.jar test_data/settings.json
+java -jar target/JDecode-1.0.0.jar test_data/settings.json
 ```
 
 For a Gradle-built JAR, use `build/libs/JDecode-1.0.0.jar` in the command.

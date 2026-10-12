@@ -3,7 +3,7 @@ plugins {
     id 'application'
 }
 
-group = 'io.github.jsdecode'
+group = 'io.github.JDecode'
 version = '1.0.0'
 description = 'A lightweight JSON parser and serializer for Java.'
 

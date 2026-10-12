@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Command-line entry point and usage examples for the JSDecode library.
+ * Command-line entry point and usage examples for the JDecode library.
  */
 public class Main {
 

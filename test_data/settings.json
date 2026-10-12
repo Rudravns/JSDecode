@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "random_seed": 12345, 
+    "max_iterations": 1000, 
+    "large_id": 9876543210, 
+    "learning_rate": 0.001, 
+    "threshold": 4.5, 
+    "enable_logging": true, 
+    "is_production": false, 
+    "output_directory": "results/", 
+    "currency_symbol": "u", 
+    "log_level": "DEBUG", 
+    "input_files": ["data/input1.txt", "data/input2.txt"], 
+    "prime_numbers": [2, 3, 5, 7, 11], 
+    "tags_list": ["ai", "testing", "java"], 
+    "metadata_map": {
+        "author": "AI Developer", 
+        "version": "1.0"
+    }
+}

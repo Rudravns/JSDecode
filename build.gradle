@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'io.github.jsdecode'
+version = '1.0.0'
+description = 'A lightweight JSON parser and serializer for Java.'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 11
+    options.encoding = 'UTF-8'
+}
+
+application {
+    mainClass = 'JDecode.Main'
+}
+
+jar {
+    archiveBaseName = 'JDecode'
+    manifest {
+        attributes 'Main-Class': application.mainClass.get()
+    }
+}
